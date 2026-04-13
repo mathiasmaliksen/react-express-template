@@ -1,0 +1,17 @@
+{
+  "name": "react-express-template",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "build:all": "pnpm --filter './apps/*' build"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
